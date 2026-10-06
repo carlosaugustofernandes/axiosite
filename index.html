@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axio IA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">Axio <span>IA</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre" class="nav-btn">Sobre nós</a></li>
+                    <li><a href="#proposta" class="nav-btn">Nossa proposta</a></li>
+                    <li><a href="#contato" class="nav-btn nav-btn-active">Entre em contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="titulo">
+        <div class="titulo-overlay"></div>
+        <div class="titulo-content">
+            <h1 class="h1-title">Axio IA</h1>
+            <p class="h1-subtitle">Transformamos complexidade técnica em resultados estratégicos com Inteligência Artificial e software sob medida.</p>
+            <a href="#contato" class="titulo-cta">Solicitar Demonstração</a>
+        </div>
+    </section>
+    <main>
+        <section id="sobre" class="content-section">
+            <div class="container">
+                <span class="section-tag">Quem Somos</span>
+                <h2>Sobre Nós</h2>
+                <p class="section-description">
+                    A Axio IA é pioneira no desenvolvimento de soluções inteligentes focadas em otimização, inteligência preditiva e automação avançada. Nossa missão é impulsionar a inovação e acelerar a transformação digital das empresas.
+                </p>
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>Inovação Contínua</h3>
+                        <p>Modelos avançados de IA adaptados às necessidades exclusivas do seu negócio.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Alta Performance</h3>
+                        <p>Algoritmos otimizados para máxima eficiência operacional e tomada de decisão.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Escalabilidade</h3>
+                        <p>Infraestrutura robusta projetada para crescer junto com a sua empresa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="proposta" class="content-section alt-bg">
+            <div class="container">
+                <span class="section-tag">Nossa Visão</span>
+                <h2>Nossa Proposta</h2>
+                <p class="section-description">
+                    Entregamos valor real por meio da combinação de inteligência de dados, aprendizado de máquina e arquitetura de software de última geração.
+                </p>
+            </div>
+        </section>
+        <section id="contato" class="content-section">
+            <div class="container flex-center">
+                <span class="section-tag">Fale Conosco</span>
+                <h2>Entre em Contato</h2>
+                <p class="section-subtext">Inscreva-se para solicitar uma demonstração personalizada.</p>
+                <div class="form-card">
+                    <form onsubmit="event.preventDefault();">
+                        <div class="form-group">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" placeholder="Seu nome completo" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail corporativo</label>
+                            <input type="email" id="email" placeholder="seuemail@empresa.com.br" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone para contato</label>
+                            <input type="tel" id="telefone" placeholder="(11) 99999-9999" required>
+                        </div>
+                        <button type="submit" class="btn-submit">Inscrever-se</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
